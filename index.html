@@ -8,9 +8,735 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="./icomoon.io/style.css">
   <title>Best Tour Plan</title>
 </head>
 <body>
+  <header class="header">
+    <div class="header-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+            <a href="tel:+1234561500" class="simple-link">
+              <span class="font-700">Questions? Need Help?</span>
+              Call us on (+123) 456 1500
+            </a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <ul class="header-main-links">
+              <li class="header-main-links__item">
+                  <span class="header-main-icon icon-gift"></span>
+                BTP Gift Card
+              </li>
+              <li class="header-main-links__item">
+                  <span class="header-main-icon icon-star"></span>
+                Loyalty Program
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-sm-4 offset-sm-3 col-md-3 offset-md-4 col-lg-3 offset-lg-0">
+            <img class="header-secondary-logo" src="./images/header_logo.svg" alt="logo">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4">
+            <form class="search-form">
+              <input type="text" class="search-form__input" aria-label="search input" name="search" placeholder="Search Location">
+              <button class="search-form__button" aria-label="search">
+                <span class="icon-search" aria-hidden="true"></span>
+              </button>
+            </form>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 offset-lg-1 col-xl-3 offset-xl-2">
+            <div class="user-profile">
+              <span class="icon-cart icon-shopping-cart">
+                <span class="user-profile__amount">2</span>
+              </span>
+              <button class="user-profile__btn">
+                <img class="user-profile__img" src="./images/user.jpg" alt="user">
+                <span class="user-profile__name">Nathan</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main-nav-section">
+      <div class="container">
+        <ul class="main-nav-section__list">
+          <li class="main-nav-section__item">
+            <a class="item-link" href=""> 
+              All Deals
+            </a>
+          </li>
+          <li class="main-nav-section__item">
+            <a class="item-link" href="">
+              Hotels
+            </a>
+          </li>
+          <li class="main-nav-section__item">
+            <a class="item-link" href="">
+              Activities
+            </a>
+          </li>
+          <li class="main-nav-section__item">
+            <a class="item-link" href="">
+              Hotel Day Packages
+            </a>
+          </li>
+          <li class="main-nav-section__item">
+            <a class="item-link" href="">
+              Restaurants
+            </a>
+          </li>
+          <li class="main-nav-section__item">
+            <a class="item-link" href="">
+              Events
+            </a>
+          </li>
+          <li class="main-nav-section__item">
+            <a class="item-link" href="">
+              Rodrigues
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="hotel-option">
+      <div class="container">
+        <ul class="bread-crumbs__list">
+            <li class="bread-crumbs__item">
+              <a class="bread-crumbs__link" href="">Home</a>
+            </li>
+            <li class="bread-crumbs__item">
+              <a class="bread-crumbs__link" href="">Flash Offers</a>
+            </li>
+            <li class="bread-crumbs__item">
+              <a class="bread-crumbs__link" href="">Grand Hilton Hotel</a>
+            </li>
+        </ul>
+          <span class="icon-rating icon-star-rating"></span>
+          <span class="icon-rating icon-star-rating"></span>
+          <span class="icon-rating icon-star-rating"></span>
+          <span class="icon-rating icon-star-rating"></span>
+          <span class="icon-rating icon-star-rating"></span>
+        <div class="row justify-content-between">
+          <div class="col-sm-9 col-md-7 col-lg-6">
+            <div class="title-label-wrap">
+              <h1 class="hotel-option__title">GRAND HILTON HOTEL</h1>
+              <span class="label">Flash Offer</span>
+            </div>
+            <p class="plaine-text">
+              Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
+            </p>
+          </div>
+          <div class="col-sm-2 col-md-2 col-lg-1">
+            <div class="hotel-option__user-ratting">
+              <span class="user-ratting__name">User Rattings</span>
+              <span class="user-ratting__value">4.5/ <span class="of">5</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="row pd-20">
+          <picture class="hotel-option__img col-xl-8">
+            <source media="(min-width: 576px)" 
+                    srcset="./images/md.img/slide_1x.webp 1x,
+                            ./images/md.img/slide_2x.webp 2x"
+                    type="image/webp">
+            <source media="(min-width: 576px)" 
+                    srcset="./images/md.img/slide_1x.jpg 1x,
+                            ./images/md.img/slide_2x.jpg 2x"
+                    type="image/jpeg">
+            <source srcset="./images/slide_1x.webp 1x,
+                            ./images/slide_2x.webp 2x"
+                    type="image/webp">
+            <source srcset="./images/slide_1x.jpg 1x,
+                            ./images/slide_2x.jpg 2x"
+                    type="image/jpeg"> 
+            <img src="./images/md.img/slide_1x.jpg" alt="hotel rooms" loading="lazy">
+          </picture>
+          <div class="info-iframe--wrap col-lg-12 col-xl-4">
+            <div class="hotel-option__info"> 
+              <div class="block-wrap">
+                  <span class="text">price starts as</span><br>
+                  <span class="price font-700">$8,500</span><br>
+                  <span class="price-description">per room / night</span><br>
+                  <span class="action-title">Quick Booking</span><br>
+              </div>
+              <div class="block-wrap">
+                  <span class="user-icon">2 x Guests</span><br>
+                  <span class="home-icon">1 x Room</span><br>
+                  <span class="phone-call-icon">12100</span><br>
+              </div>
+              <button class="hotel-option-info__btn">
+                  View Other Options
+              </button>
+            </div>
+            <iframe class="hotel-option__iframe" loading="lazy" title="location Odessa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175899.85463844534!2d30.571704263939363!3d46.459886488218054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1617138953243!5m2!1sru!2sua">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="tabs-nav">
+      <div class="container">
+        <ul class="tabs-nav__list">
+          <li class="tabs-nav__item">
+            <button class="tabs-nav__button tabs-nav__button--active">Package Summery</button>
+          </li>
+          <li class="tabs-nav__item">
+            <button class="tabs-nav__button">Hotel Information</button>
+          </li>
+          <li class="tabs-nav__item">
+            <button class="tabs-nav__button">Rooms</button>
+          </li>
+          <li class="tabs-nav__item">
+            <button class="tabs-nav__button">Facilities & Activities</button>
+          </li>
+          <li class="tabs-nav__item">
+            <button class="tabs-nav__button">Dining & Entertainment</button>
+          </li>
+          <li class="tabs-nav__item">
+            <button class="tabs-nav__button">Reviews</button>
+          </li>
+          <li class="tabs-nav__item">
+            <button class="tabs-nav__button">Questions & Answers</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="package-details">
+      <div class="container">
+        <div class="row">
+          <h2 class="package-details__title col-lg-12">Package Summery</h2>
+          <div class="package-details__small-card col-md-6 col-lg-6 col-xl-6">
+            <h3 class="services-title">Package Highlights</h3>
+            <ul class="services__list small-card">
+              <li class="services__item small-card__item ">
+                Half Board/ All Inclusive
+              </li>
+              <li class="services__item small-card__item">
+                Child Under 11 Years Stay Free
+              </li>
+              <li class="services__item small-card__item">
+                LUX* Me Spa
+              </li>
+              <li class="services__item small-card__item">
+                Luxurious 5-Star Hotel
+              </li>
+              <li class="services__item small-card__item">
+                Banyan An Adult Only Zone
+              </li>
+            </ul>
+          </div>
+          <div class="package-details__small-card col-md-6 col-lg-6 col-xl-6">
+            <h3 class="services-title">Offer Details</h3>
+              <ul class="services__list small-card">
+                <li class="services__item small-card__item">
+                  Benefit from a special <br> discounted CHILL’OUT OFFER <br> at Grand Hilton Hotel.
+                </li>
+                <li class="service-data small-card__item">
+                  10th March - 30th April 2020
+                </li>
+                <li class="services-clarification"> 
+                  * Valid until 30 April 2020
+                </li>
+              </ul>
+          </div>
+          <div class="package-details__big-card col-md-12 col-lg-12 col-xl-12">
+            <h3 class="services-title">Package Summery Details</h3>
+            <div class="package-details__big-card--wrap">
+              <div class="services-details-group">
+                <h4 class="services-title--alt">Purchase Inclusions</h4>
+                  <ul class="services__list">
+                    <li class="services__item">Room as per selection</li>
+                    <li class="services__item">Half Board or All Inclusive Meal Plan</li>
+                    <li class="services__item">Complimentary Land & Water activities</li>
+                    <li class="services__item">Child Under 11 years old stays free</li>
+                    <li class="services__item">Free Wi-Fi</li>
+                    <li class="services__item">Free Secure Parking</li>
+                  </ul>
+              </div>
+              <div class="services-details-group">
+                <h4 class="services-title--alt">Complimentary Land Based Activities</h4>
+                <ul class="services__list">
+                  <li class="services__item">Gym</li>
+                  <li class="services__item">Beach Volley</li>
+                  <li class="services__item">Table tennis</li>
+                  <li class="services__item">Soccer balls</li>
+                  <li class="services__item">Yoga</li>
+                  <li class="services__item">Unlimited access to driving range</li>
+                </ul>
+              </div>
+              <div class="services-details-group">
+                <h4 class="services-title--alt">Complimentary Water Based Activities</h4>
+                <ul class="services__list">
+                  <li class="services__item">Water skiing</li>
+                  <li class="services__item">Windsurfing</li>
+                  <li class="services__item">Pedal boats</li>
+                  <li class="services__item">Kayaking</li>
+                  <li class="services__item">Aqua Gym</li>
+                  <li class="services__item">Glass bottom boat trips</li>
+                </ul>
+              </div>
+                <div class="package-details__divider"></div>
+              <div class="services-details-group">
+                <h4 class="services-title--alt">Meal Plan Available</h4>
+                <ul class="services__list">
+                  <li class="services__item">Half Board</li>
+                  <li class="services__item">All Inclusive</li>
+                </ul>
+              </div>
+              <div class="services-details-group">
+                <h4 class="services-title--alt">Entertainment</h4>
+                <ul class="services__list">
+                  <li class="services__item">Live music</li>
+                  <li class="services__item">DJ & Mauritian Dance Show</li>
+                </ul>
+              </div>
+              <div class="services-details-group">
+                <h4 class="services-title--alt">Check In & Check Out</h4>
+                <ul class="services__list">
+                  <li class="services__item">Check In Time 14:00</li>
+                  <li class="services__item">Check Out Time 11:00</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="other-package">
+      <div class="container">
+        <h2 class="other-package__title">Other Packages</h2>
+          <ul class="other-package__list row">
+            <li class="other-package__item-description-hotel--active col-md-12 offset-lg-1 col-lg-10 col-xl-8 offset-xl-0">
+              <span class="label-img--active">Flash Offer</span>
+              <picture class="description-hotel__img">
+                <source srcset="./images/hotel/hotel1_1x.webp 1x,
+                                ./images/hotel/hotel1_2x.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/hotel/hotel1_1x.jpg 1x,
+                                ./images/hotel/hotel1_2x.jpg 2x"
+                        type="image/jpeg">
+                <img class="description-hotel__img-active" src="./images/hotel/hotel1_1x.jpg" 
+                      alt="Hotel Blue Haven">
+              </picture>
+              <div class="description-hotel__card-info--active">
+                <span class="icon-rating icon-star-rating"></span>
+                <span class="icon-rating icon-star-rating"></span>
+                <span class="icon-rating icon-star-rating"></span>
+                <span class="icon-rating icon-star-rating"></span>
+                <span class="icon-rating icon-star-rating"></span>
+                <h3 class="card-info__title--active">Hotel Blue Haven</h3>
+                <p class="card-info__txt">
+                  Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit.
+                  Ipsum est fugiat velit ea llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur 
+                  excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit. Ipsum est fugiat velit 
+                  ea ullamco do
+                </p>
+                <span class="card-info__location font-size">1749 Wheeler Ridge  Delaware</span>
+                <span class="card-info__guests font-size">2 x Guests</span>
+                <span class="card-info__room font-size">1 x Room</span>
+                <span class="card-info__old-price--active">$ 10,500</span>
+                <span class="card-info__new-price">$ 8,500</span>
+                <button class="card-info__btn">Book Now</button>
+              </div>
+            </li>
+            <li class="other-package__item-description-hotel col-md-6 offset-lg-1 col-lg-5 col-xl-4 offset-xl-0">
+              <span class="label-img">Flash Offer</span>
+              <picture class="description-hotel__img">
+                <source srcset="./images/hotel/hotel2_1x.webp 1x,
+                                ./images/hotel/hotel2_2x.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/hotel/hotel2_1x.jpg 1x,
+                                ./images/hotel/hotel2_2x.jpg 2x"
+                        type="image/jpeg">
+                <img src="./images/hotel/hotel2_1x.jpg" 
+                      alt="LUX* Belle Mare">
+              </picture>
+              <div class="description-hotel__card-info">
+                <h3 class="card-info__title">LUX* Belle Mare</h3>
+                <span class="card-info__location font-size">1749 Wheeler Ridge  Delaware</span>
+                <span class="card-info__guests font-size">2 x Guests</span>
+                <span class="card-info__room font-size">1 x Room</span>
+                <span class="card-info__old-price">$ 8,500</span>
+                <span class="card-info__new-price">$ 3,000</span>
+                <button class="card-info__btn">Book Now</button>
+              </div>
+            </li>
+            <li class="other-package__item-description-hotel col-md-6 col-lg-5 col-xl-4">
+              <span class="label-img">Flash Offer</span>
+              <picture class="description-hotel__img">
+                  <source srcset="./images/hotel/hotel3_1x.webp 1x,
+                                  ./images/hotel/hotel3_2x.webp 2x"
+                          type="image/webp">
+                  <source srcset="./images/hotel/hotel3_1x.jpg 1x,
+                                  ./images/hotel/hotel3_2x.jpg 2x"
+                          type="image/jpeg">
+                  <img src="./images/hotel/hotel3_1x.jpg" 
+                        alt="White Palace">
+              </picture>
+              <div class="description-hotel__card-info">
+                <h3 class="card-info__title">White Palace</h3>
+                <span class="card-info__location font-size">1749 Wheeler Ridge  Delaware</span>
+                <span class="card-info__guests font-size">2 x Guests</span>
+                <span class="card-info__room font-size">1 x Room</span>
+                <span class="card-info__old-price">$ 10,500</span>
+                <span class="card-info__new-price">$ 9,500</span>
+                <button class="card-info__btn">Book Now</button>
+              </div>
+            </li>
+            <li class="other-package__item-description-hotel col-md-6 offset-lg-1 col-lg-5 col-xl-4 offset-xl-0">
+              <span class="label-img">Flash Offer</span>
+              <picture class="description-hotel__img">
+                  <source srcset="./images/hotel/hotel4_1x.webp 1x,
+                                  ./images/hotel/hotel4_2x.webp 2x"
+                          type="image/webp">
+                  <source srcset="./images/hotel/hotel4_1x.jpg 1x,
+                                  ./images/hotel/hotel4_2x.jpg 2x"
+                          type="image/jpeg">
+                  <img src="./images/hotel/hotel4_1x.jpg" 
+                        alt="LUX* Belle Mare">
+              </picture>
+              <div class="description-hotel__card-info">
+                <h3 class="card-info__title">Luxury Place</h3>
+                <span class="card-info__location font-size">1749 Wheeler Ridge  Delaware</span>
+                <span class="card-info__guests font-size">2 x Guests</span>
+                <span class="card-info__room font-size">1 x Room</span>
+                <span class="card-info__old-price">$ 4,500</span>
+                <span class="card-info__new-price">$ 2,500</span>
+                <button class="card-info__btn">Book Now</button>
+              </div>
+            </li>
+            <li class="other-package__item-description-hotel col-md-6 col-lg-5 col-xl-4">
+              <span class="label-img">Flash Offer</span>
+              <picture class="description-hotel__img">
+                  <source srcset="./images/hotel/hotel5_1x.webp 1x,
+                                  ./images/hotel/hotel5_2x.webp 2x"
+                          type="image/webp">
+                  <source srcset="./images/hotel/hotel5_1x.jpg 1x,
+                                  ./images/hotel/hotel5_2x.jpg 2x"
+                          type="image/jpeg">
+                  <img src="./images/hotel/hotel5_1x.jpg" 
+                        alt="Luxury Place">
+              </picture>
+              <div class="description-hotel__card-info">
+                <h3 class="card-info__title">Hotel Five Star</h3>
+                <span class="card-info__location font-size">1749 Wheeler Ridge  Delaware</span>
+                <span class="card-info__guests font-size">2 x Guests</span>
+                <span class="card-info__room font-size">1 x Room</span>
+                <span class="card-info__old-price">$ 6,500</span>
+                <span class="card-info__new-price">$ 3,500</span>
+                <button class="card-info__btn">Book Now</button>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </section>
+
+    <section class="feedback-section">
+      <div class="container">
+        <h2 class="feedback-section__title">What people thinks about us</h2>
+        <div class="row">
+          <button class="feedback-section__btn col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" aria-label="scroll left">
+            <span class="arrow-icon icon-arrow-left"></span>
+          </button>
+          <div class="feedback-section__info-user col-10 col-sm-10 col-md-10 col-lg-8 offset-lg-1 col-xl-8 offset-xl-1">
+            <img class="quotes-left-img" src="./images/quotes_left.svg" alt="quotes">
+            <div class="user-info--wrap">
+              <picture>
+                <source srcset="./images/feedback_1x.webp 1x,
+                                ./images/feedback_2x.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/feedback_1x.jpg 1x,
+                                ./images/ffeedback_2x.jpg 2x"
+                        type="image/jpeg">
+                <img class="info-user__img" src="./images/feedback_1x.jpg" 
+                      alt=" the girl smiles">
+              </picture>
+                <span class="info-user__name">Megan Fox</span>
+                <span class="info-user__data">Stayed 18 Nov, 2019</span>
+                <div class="icon-rating--wrap">
+                  <span class="icon-rating icon-star-rating"></span>
+                  <span class="icon-rating icon-star-rating"></span>
+                  <span class="icon-rating icon-star-rating"></span>
+                  <span class="icon-rating icon-star-rating"></span>
+                  <span class="icon-rating icon-star-rating"></span>
+                </div>
+            </div>
+              <p class="info-user__txt">
+                It was very nice hotel with cleanliness. Staff behavior was good and polite. 
+                They welcome us very well. Issue was only that Lift was not in working and we 
+                were allotted to 3rd floor and amenities articles were in corner of gallery which 
+                were giving bad feeling. Breakfast was good and support of the staff was also very 
+                nice. Location is not good as per atmosphere, it is very nearby most of the popular 
+                places but self location in a narrow street is not good. Overall it was a good experience 
+                and could recommend. 
+              </p>
+              <img class="quotes-right-img" src="./images/quotes_right.svg" alt="quotes">
+          </div>
+          <button class="feedback-section__btn col-1 col-sm-1 col-md-1 col-lg-1 offset-lg-1 col-xl-1 offset-xl-1" aria-label="scroll right">
+            <span class="arrow-icon icon-arrow-right"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe-section">
+      <div class="container">
+        <div class="row">
+          <h2 class="subscribe-section__title offset-lg-1 col-lg-4 offset-xl-2 col-xl-3">
+            <span class="subscribe-section__title-small">subscribe to our <br></span>
+            Newsletter
+          </h2>
+          <form class="send-form offset-lg-2 col-lg-5 offset-xl-1 col-xl-4">
+            <input class="send-form__input"
+                    type="text" aria-label="send input" name="send" placeholder="Your email address">
+            <button class="send-form__button" aria-label="send button">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities-section">
+      <div class="container">
+        <h2 class="activities-section__title">Other Activities</h2>
+          <ul class="activities-section__list row">
+            <li class="activities-section__item col-md-6 col-xl-3">
+              <picture class="service-card__img">
+                <source srcset="./images/activities/chamarel_1x.webp 1x,
+                                ./images/activities/chamarel_2x.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/activities/chamarel_1x.jpg 1x,
+                                ./images/activities/chamarel_2x.jpg 2x"
+                        type="image/jpeg">
+                <img src="./images/activities/chamarel_1x.jpg" 
+                      alt="the curious corner of charamel">
+              </picture>
+              <div class="service-card__inner">
+                <h3 class="service-card__title">
+                  The curious corner of chamarel
+                </h3>
+                <button class="service-card__btn">
+                  Book Now
+                </button>
+              </div>
+            </li>
+            <li class="activities-section__item col-md-6 col-xl-3">
+              <picture class="service-card__img">
+                <source srcset="./images/activities/golf_1x.webp 1x,
+                                ./images/activities/golf_2x.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/activities/golf_1x.jpg 1x,
+                                ./images/activities/golf_2x.jpg 2x"
+                        type="image/jpeg">
+                <img src="./images/activities/golf_1x.jpg" 
+                      alt="golf">
+              </picture>
+              <div class="service-card__inner">
+                <h3 class="service-card__title">
+                  Gymkhana club golf course
+                </h3>
+                <button class="service-card__btn">
+                  Book Now
+                </button>
+              </div>
+            </li>
+            <li class="activities-section__item col-md-6 col-xl-3">
+              <picture class="service-card__img">
+                <source srcset="./images/activities/falls_1x.webp 1x,
+                                ./images/activities/falls_2x.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/activities/falls_1x.jpg 1x,
+                                ./images/activities/falls_2x.jpg 2x"
+                        type="image/jpeg">
+                <img src="./images/activities/falls_1x.jpg" 
+                      alt="golf">
+              </picture>
+              <div class="service-card__inner">
+                <h3 class="service-card__title">
+                  Tamarind falls hiking <br> trip - full day
+                </h3>
+                <button class="service-card__btn">
+                  Book Now
+                </button>
+              </div>
+            </li>
+            <li class="activities-section__item col-md-6 col-xl-3">
+              <picture class="service-card__img">
+                <source srcset="./images/activities/sea_1x.webp 1x,
+                                ./images/activities/sea_2x.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/activities/sea_1x.jpg 1x,
+                                ./images/activities/sea_2x.jpg 2x"
+                        type="image/jpeg">
+                <img src="./images/activities/sea_1x.jpg" 
+                      alt="golf">
+              </picture>
+              <div class="service-card__inner">
+                <h3 class="service-card__title">
+                  The blue marine discovery quest
+                </h3>
+                <button class="service-card__btn">
+                  Book Now
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row mb-94">
+        <img class="footer__img col-4 offset-4 col-sm-8 offset-sm-2 col-md-5 offset-md-4 col-lg-2 offset-lg-0 col-xl-2" 
+              src="./images/footer_logo.svg" alt="logo">
+        <div class="footer-all-information col-6 offset-4 col-md-4 offset-md-0 col-lg-3 offset-xl-1 col-xl-2">
+          <h3 class="footer__title">All categories</h3>
+          <ul class="footer-all-information__list">
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">All Deals</a> 
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Hotels</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Activities</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Spa Packages</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Hotel Day Packages</a> 
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Restaurants</a> 
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Fitness</a> 
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Rodrigues</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="footer-all-information col-6 offset-4 col-md-5 offset-md-0 col-lg-4 col-xl-4 offset-xl-1">
+          <h3 class="footer__title">Additional information</h3>
+          <ul class="footer-all-information__list">
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">About Us</a> 
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Contact Us</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">How does it work?</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Frequently Asked Questions</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Deals.mu loyalty program</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Promote your Business on BTP</a>
+            </li>
+          </ul>
+          <div class="social-network--wrap">
+            <h3 class="footer__title mr-42">Social network</h3>
+            <a href="" class="icon-facebook footer-icon" aria-label="facebook"></a>
+            <a href="" class="icon-youtube footer-icon" aria-label="youtube"></a>
+            <a href="" class="icon-instagram footer-icon" aria-label="instagram"></a>
+          </div>
+        </div>
+        <div class="footer-all-information col-6 offset-4 col-md-3 offset-md-0 col-lg-3 col-xl-2 ">
+          <h3 class="footer__title">Legal Information</h3>
+          <ul class="footer-all-information__list">
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Terms & Conditions</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Disclaimer</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Cancellation policy</a>
+            </li>
+            <li class="footer-all-information__item">
+              <a class="footer-all-information__link" href="">Privacy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mb-94">
+        <div class="contact-details col-9 offset-2 col-md-8 offset-md-1 col-lg-6 offset-lg-0 col-xl-6">
+          <h3 class="footer__title">Contact details</h3>
+          <p class="contact-details__txt">
+            Feel free to contact us by phone, email or by our contact form
+          </p>
+          <span class="contact-details__location">
+            9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States 
+          </span>
+          <div class="contact-details__phone--wrap">
+            <a class="contact-details__phone footer-icon-phone" href="tel:2691500" aria-label="business phone">
+                Tel (business hours) : 269 1500
+            </a>
+            <a class="contact-details__phone ml-36" href="tel:52566138" aria-label="hotline phone">
+                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)
+            </a>
+            <a class="contact-details__phone ml-36" href="tel:52566138" aria-label="hotline phone">
+                Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+            </a> 
+          </div>
+          <a class="contact-details__email" href="mailto:cherly.lawson@example.com" aria-label="email">
+            cherly.lawson@example.com
+          </a>
+        </div>
+        <div class="send-message col-9 offset-2 col-md-9 offset-md-1 col-lg-6 offset-lg-0 col-xl-6">
+          <h3 class="footer__title">Send us a message</h3>
+          <form class="send-message__form">
+              <input class="user-name__input" aria-label="user name" name="user_name" type="text" required
+                      placeholder="Your Full Name*">
+              <input class="user-phone__input" aria-label="user phone" name="user_phone" type="tel" required
+                      placeholder="Phone Number*">
+              <textarea class="send-message__input" aria-label="user message" name="user_message" required
+                      placeholder="Message"></textarea>
+              <button class="footer__btn" type="submit">Send</button>
+              <span class="clarification">* Required Fields</span>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="additional-links col-8 col-lg-4 offset-lg-4 col-xl-4">
+          <li>
+            <a class="footer__additional-link" href="" aria-label="Disclaimer link">Disclaimer</a>
+          </li>
+          <li>
+            <a class="footer__additional-link" href="" aria-label="Conditions of use link">Conditions of use</a>
+          </li>
+          <li>
+            <a class="footer__additional-link" href="" aria-label="Cancellation policy link">Cancellation policy</a>
+          </li>
+        </ul>
+          <img class="footer__img-payments col-4 col-lg-2 offset-lg-2 col-xl-2" src="./images/payments.svg" alt="payments">    
+      </div>
+    </div>
+  </footer>
+
 
 </body>
 </html>

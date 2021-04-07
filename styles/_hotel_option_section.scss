@@ -1,0 +1,183 @@
+.hotel-option {
+  padding-top: 18px;
+}
+.bread-crumbs {
+  margin-bottom: 26px;
+  font-size: 10px;
+  line-height: 13px;
+  color: #0a223d;
+  text-align: left;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 44px;
+  }
+}
+.icon-rating {
+  font-size: 6px;
+  color: #f2994a;
+  text-align: left;
+}
+.title-label-wrap {
+  display: flex;
+  align-items: center;
+}
+.hotel-option__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: $text-color-main;
+  margin-bottom: 0;
+  margin-right: 14px;
+  @include media-breakpoint-up(md) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+.label {
+  background-color: $primary-color;
+  color: $text-color-secondary;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 6px;
+  padding: 4px 6px;
+  @include media-breakpoint-up(md) {
+    font-size: 10px;
+    padding: 3px 9px;
+  }
+}
+.plaine-text {
+  font-size: 10px;
+  line-height: 15px;
+  color: $text-color-main;
+  margin-top: 16px;
+  @include media-breakpoint-up(sm) {
+    margin: 0;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 12px;
+  }
+}
+.hotel-option__user-ratting {
+  width: 65px;
+  height: 36px;
+  background-color: #ec1f46;
+  border-radius: 4px;
+  padding: 0px 5px;
+  text-align: center;
+  line-height: 14px;
+  margin-bottom: 20px;
+  @include media-breakpoint-up(md) {
+    height: 45px;
+    margin-bottom: 0;
+  }
+}
+.user-ratting__name {
+  font-weight: 600;
+  font-size: 8px;
+  color: #fff;
+}
+.user-ratting__value {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+.of {
+  font-size: 10px;
+}
+.pd-20 {
+  padding-top: 20px;
+}
+.hotel-option__img {
+  margin-bottom: 30px;
+  @include media-breakpoint-up(xl){
+    margin-bottom: 0;
+  }
+}
+.info-iframe--wrap {
+  @include media-breakpoint-up(md){
+    display: flex;
+  }
+  @include media-breakpoint-up(xl){
+    display: block;
+  }
+}
+.hotel-option__info {
+  width: 350px;
+  height: 210px;
+  background-color: $secondary-color;
+  padding: 26px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  color: $text-color-secondary;
+  gap: 16px;
+}
+.text {
+  font-size: 10px;
+  line-height: 14px;
+}
+.price {
+  font-size: 24px;
+  line-height: 33px;
+}
+.price-description {
+  font-size: 12px;
+  line-height: 16px;
+}
+.action-title {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+}
+.user-icon,
+.home-icon {
+  font-size: 12px;
+  line-height: 16px;
+}
+.user-icon:before {
+  font-family: icomoon;
+  content: "\e90b";
+  margin-right: 10px;
+  font-size: 14px;
+}
+.home-icon:before {
+  font-family: icomoon;
+  content: "\e904";
+  margin-right: 10px;
+  font-size: 14px;
+}
+.phone-call-icon {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-top: 34px;
+}
+.phone-call-icon:before {
+  font-family: icomoon;
+  content: "\e907";
+  margin-right: 10px;
+  font-size: 14px;
+}
+.hotel-option-info__btn {
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  @include base-buttons-styles(14px);
+}
+.hotel-option__iframe {
+  width: 348px;
+  height: 210px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  @include media-breakpoint-up(md){
+    margin-left: 30px;
+    margin-top: 0;
+  }
+  @include media-breakpoint-up(xl){
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
