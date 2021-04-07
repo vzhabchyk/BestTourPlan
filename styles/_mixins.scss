@@ -1,0 +1,17 @@
+@mixin base-buttons-styles ($font-size) {
+  background-color: $primary-color;
+  color: $text-color-secondary;
+  border-radius: 4px;
+  font-size: $font-size;
+  &:hover {
+    color: #000;
+  }
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(blue, 0.3);
+  }
+  &:active {
+    background-color: #6d6868;
+    color: $text-color-secondary;
+  }
+}
+

@@ -1,0 +1,111 @@
+.package-details__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.package-details__small-card {
+  border-radius: 0px 0px 8px 0px;
+  margin-bottom: 34px;
+}
+.services-title {
+  background-color: $secondary-color;
+  color: $text-color-secondary;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 16px 24px;
+  border-radius: 8px 8px 0px 0px;
+  margin: 0;
+}
+.small-card {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 18px;
+  display: flex;
+  flex-flow: wrap;
+}
+.small-card__item {
+  width: 31%;
+  @include media-breakpoint-up(lg) {
+    width: 35%;
+  }
+  @include media-breakpoint-up(xl) {
+    width: 38%;
+  }
+}
+.services__item {
+  font-size: 12px;
+  line-height: 15px;
+  color: $text-color-main;
+  margin-left: 62px;
+  position: relative;
+  margin-bottom: 22px;
+}
+.services__item:before {
+  font-family: icomoon;
+  content: "\e910";
+  font-size: 17px;
+  color: #333;
+  position: absolute;
+  left: -36px;
+}
+.services-txt,
+.service-data,
+.services-clarification {
+  font-size: 12px;
+  line-height: 15px;
+  color: $text-color-main;
+}
+.services-txt {
+  position: relative;
+  margin-left: 60px;
+  margin-top: 26px;
+}
+.services-txt:before {
+  font-family: icomoon;
+  content: "\e910";
+  font-size: 17px;
+  color: #333;
+  position: absolute;
+  left: -36px;
+}
+.service-data {
+  position: relative;
+  margin-left: 60px;
+}
+.service-data:before {
+  font-family: icomoon;
+  content: "\e901";
+  font-size: 16px;
+  position: absolute;
+  left: -36px;
+}
+.services-clarification {
+  margin: 24px 0 0 62px;
+} 
+.services-title--alt {
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ec1f46;
+  margin-left: 25px;
+  margin-bottom: 22px;
+}
+.package-details__divider {
+  width: 100%;
+  margin: 45px 25px 34px;
+  border: 1px dashed #e0e0e0;
+}
+.package-details__big-card--wrap {
+  background-color: #fff;
+  display: flex;
+  flex-flow: wrap;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+.services-details-group {
+  width: 33%;
+  margin: 0;
+}

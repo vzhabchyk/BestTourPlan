@@ -1,0 +1,51 @@
+.activities-section {
+  padding-top: 60px;
+  padding-bottom: 98px;
+}
+.activities-section__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 57px;
+  text-transform: uppercase;
+  text-align: center;
+  @include media-breakpoint-up(xl) {
+    text-align: start;
+  }
+}
+.activities-section__item {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 255px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.service-card__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(196, 196, 196, 0) 35%, #0a223d 100%);
+  padding: 24px 26px;
+}
+.service-card__title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text-color-secondary;
+  margin-bottom: 18px;
+}
+.service-card__btn {
+  @include base-buttons-styles (12px);
+  padding: 7px 22px;
+}

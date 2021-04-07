@@ -1,0 +1,38 @@
+.subscribe-section {
+  padding-top: 98px;
+  padding-bottom: 87px;
+  background-image: image-set("../images/bg_1x.jpg" 1x, "../images/bg_2x.jpg" 2x);
+  background-size: cover;
+}
+.subscribe-section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: $text-color-secondary;
+}
+.subscribe-section__title-small {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: lowercase;
+}
+.send-form {
+  display: flex;
+  margin-top: 10px;
+}
+.send-form__input {
+  width: 285px;
+  height: 55px;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 32px;
+  padding-right: 15px;
+  border: none;
+}
+.send-form__button {
+  @include base-buttons-styles(12px);
+  border-radius: 0 4px 4px 0;
+  width: 65px;
+  height: 55px;
+}

@@ -1,8 +1,23 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 body {
-  font-family: $primary-font;
+  background-color: $background-color;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+img, 
+video,
+picture {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
 }

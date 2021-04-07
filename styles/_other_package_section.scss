@@ -1,0 +1,156 @@
+.other-package {
+  padding-top: 40px;
+  padding-bottom: 66px;
+}
+.other-package__title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 66px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.other-package__item-description-hotel--active {
+  display: flex;
+  position: relative;
+}
+.label-img--active {
+  background-color: $primary-color;
+  color: $text-color-secondary;
+  border-radius: 0 4px 4px 0;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 11px;
+  height: 30px;
+  position: absolute;
+  top: 34px;
+}
+.description-hotel__card-info--active {
+  padding: 46px 20px 30px 44px;
+  background-color: $secondary-color;
+  color: $text-color-secondary;
+  width: 364px;
+  border-radius: 0px 8px 8px 0px;
+  @include media-breakpoint-up(md) {
+    padding: 36px 10px 20px 34px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 46px 20px 30px 44px;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 30px;
+  }
+}
+.description-hotel__img-active {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+  @include media-breakpoint-up(xl) {
+  object-fit: none;
+  height: auto;
+  }
+}
+.other-package__item-description-hotel {
+  margin-top: 30px;
+  @include media-breakpoint-up(xl) {
+    margin-top: 0;
+  }
+}
+.card-info__title--active {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+.card-info__txt {
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  @include media-breakpoint-up(lg) {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+}
+.font-size {
+  font-size: 12px;
+  line-height: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+.card-info__location:before {
+  font-family: icomoon;
+  content: "\e906";
+  font-size: 14px;
+  color: #fff;
+  margin-right: 14px;
+}
+.card-info__guests:before {
+  font-family: icomoon;
+  content: "\e90b";
+  font-size: 14px;
+  color: #fff;
+  margin-right: 14px;
+}
+.card-info__room:before {
+  font-family: icomoon;
+  content: "\e904";
+  font-size: 14px;
+  color: #fff;
+  margin-right: 14px;
+}
+.card-info__old-price--active {
+  font-size: 14px;
+  text-decoration-line: line-through;
+  display: block;
+  margin-top: 30px;
+}
+.card-info__new-price{
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 80px;
+}
+.card-info__btn {
+  @include base-buttons-styles (14px);
+  padding: 10px 26px;
+}
+.other-package__item-description-hotel {
+  position: relative;
+  @include media-breakpoint-up(lg){
+    margin-bottom: 30px;
+  }
+}
+.label-img {
+  background-color: $primary-color;
+  color: $text-color-secondary;
+  border-radius: 0 4px 4px 0;
+  font-weight: 600;
+  font-size: 8px;
+  padding: 4px 9px;
+  height: 18px;
+  position: absolute;
+  top: 26px;
+}
+.description-hotel__card-info {
+  padding: 28px 20px 25px 32px;
+  background-color: $secondary-color;
+  color: $text-color-secondary;
+  max-width: 350px;
+  height: 250px;
+  border-radius: 0px 0px 8px 8px;
+  @include media-breakpoint-up(md) {
+    padding: 18px 15px 20px 20px;
+  }
+}
+.card-info__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.card-info__old-price {
+  margin-top: 24px;
+  display: block;
+  text-decoration-line: line-through;
+  font-size: 14px;
+}
