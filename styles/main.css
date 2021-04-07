@@ -5240,10 +5240,6 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   background-color: #f5fafe;
 }
